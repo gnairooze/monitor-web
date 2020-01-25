@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MonitorWebAppConsole.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Timeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://gafi.gov.eg/api/api/Authentication/Login</Value>
+    </Setting>
+    <Setting Name="PayLoad" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{"Name":"testfz1","Password":"P@ssw0rd","Recaptcha":{}}"</Value>
+    </Setting>
+    <Setting Name="Method" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POST</Value>
+    </Setting>
+    <Setting Name="MediaType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">application/json</Value>
+    </Setting>
+    <Setting Name="AlertFromEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">linkdev.gfz@gmail.com</Value>
+    </Setting>
+    <Setting Name="AlertFromName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GFZ LinkDev</Value>
+    </Setting>
+    <Setting Name="AlertToEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">alert.gafi@linkdev.com</Value>
+    </Setting>
+    <Setting Name="AlertToName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GAFI Alert</Value>
+    </Setting>
+    <Setting Name="AlertFromPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Kri3qW!1!e7K</Value>
+    </Setting>
+    <Setting Name="DemoMode" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LogFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\temp\monitorWeb.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
